@@ -1,0 +1,45 @@
+# Build outputs
+/build/
+**/bin/
+**/obj/
+*.elf
+*.map
+*.obj
+*.o
+*.d
+*.tmp
+*.bak
+*.backup
+*~
+
+# Tool caches
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# Local tools and reference checkouts
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.local
+*.local.*
+secrets.*
+credentials.*
+arduino_secrets.h
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Editors and operating systems
+/.claude/
+/.idea/
+/.vs/
+/.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini

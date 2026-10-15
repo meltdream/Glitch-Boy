@@ -1,0 +1,24 @@
+Big City Sliding Blaster / Sliding Blaster
+
+Bundled file:
+  Sliding Blaster.nes
+
+Original upload:
+  blaster.nes
+  Uploaded on itch.io: 2022-02-02 17:41 UTC
+  SHA-256: 8d9e48253238e2c994d65a5c13818c8f1aae7f37fdfcb3e48a916d9298ad620f
+
+Author:
+  NovaSquirrel
+
+Source and game page:
+  https://novasquirrel.itch.io/sliding-blaster
+  https://github.com/NovaSquirrel/SlidingBlaster
+
+Licenses reported on the itch.io game page:
+  Code: zlib License
+  Assets: Creative Commons Attribution v4.0 International
+
+Notes:
+  The bundled ROM is the unmodified NES ROM from the public itch.io
+  download, compressed only for firmware storage.

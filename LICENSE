@@ -1,0 +1,58 @@
+Glitch Boy project-owned additions
+
+Copyright (c) 2025 Glitch Boy contributors
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHORS DISCLAIM ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS. IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY SPECIAL, DIRECT,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
+
+Scope
+
+This LICENSE applies only to Glitch Boy project-owned files and additions that
+do not already carry a different upstream copyright and license notice. Those
+files can be used under the terms above on their own.
+
+The firmware as a whole
+
+This repository is a mixed-license codebase, and the firmware image built from
+it combines all of these licenses in one binary:
+
+  - Glitch Boy files and the esp_8_bit foundation: ISC-style (permissive)
+  - Walnut-CGB, minigb_apu, and the Parallax font data: MIT
+  - Nofrendo: GNU Library General Public License, version 2
+  - the music visualizer (midi_visualizer.cpp, vidpix_data.h,
+    vidpix_vector_font.h): GNU General Public License, version 3 or later,
+    ported from VID PIX PAL v1.2.2 by Synthrotek Sound Study Modular
+
+Because GPL-3.0-or-later code is compiled into the same image, the firmware as
+a whole, in source or binary form, is distributed under the GNU General Public
+License version 3 or (at your option) any later version. The full text is in
+licenses/GPL-3.0.txt. If you redistribute the firmware, you must make the
+complete corresponding source available under that license, keep every
+copyright and license notice, and pass the same rights on to the recipient.
+
+This does not relicense any individual file. Each file keeps the license in its
+own header, and the permissive files above can still be taken out and used
+under their own terms. Nofrendo stays under the LGPL v2 for its own files; it
+is combined into the GPLv3 firmware as section 6 of that license allows, so the
+LGPL v2 obligations (source, relinking materials) still apply to it. See
+SOURCE_AND_RELINKING_OFFER.md.
+
+The Game Boy and Game Boy Color implementation under
+firmware/GlitchBoy/src/walnut/ includes Walnut-CGB, its Peanut-GB foundation,
+marked SameBoy-derived portions, and minigb_apu/MiniGBS audio code. Those
+components retain their MIT terms and upstream copyright notices; they are not
+relicensed by this file. See the README in that directory and the bundled
+license texts under licenses/.
+
+See THIRD_PARTY_NOTICES.md for the full list of components, and
+COMMERCIAL_DISTRIBUTION_NOTES.md for what to include when shipping the firmware
+on devices.

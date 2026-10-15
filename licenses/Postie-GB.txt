@@ -1,0 +1,23 @@
+Postie
+
+Bundled file:
+  Postie.gbc
+
+Original upload:
+  Postie-1.1.gbc
+  SHA-256: a2dfc32e5468fa0a8d2529bfc344528517b7615ad104f264e400c67c5b314a98
+
+Author:
+  invertedHat
+
+Source and game page:
+  https://invertedhat.itch.io/postie
+  https://github.com/inverted-hat/postie
+
+Licenses reported on the itch.io game page:
+  Code: MIT License
+  Assets: Creative Commons Attribution v4.0 International
+
+Notes:
+  The bundled ROM is the unmodified Postie-1.1.gbc public itch.io download,
+  compressed only for firmware storage.
