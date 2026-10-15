@@ -171,11 +171,3 @@ Glitch Boy started as a fork of Peter Barrett's `esp_8_bit`. The NES core is Nof
 ## License
 
 Mixed licenses. [LICENSE](LICENSE) covers the Glitch Boy files; everything else keeps its own license. The music visualizer is GPL-3.0-or-later, so the firmware as a whole is distributed under GPLv3. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md), [SOURCE_AND_RELINKING_OFFER.md](SOURCE_AND_RELINKING_OFFER.md) and the texts in [licenses/](licenses/).
-
-## More notes
-
-- [GB_STOP_AND_SAVE_RAM_FIX.md](firmware/GlitchBoy/GB_STOP_AND_SAVE_RAM_FIX.md)
-- [BT_VIDEO_AND_STABILITY_FIXES.md](firmware/GlitchBoy/BT_VIDEO_AND_STABILITY_FIXES.md)
-- [GB_ROM_CACHE_FIX.md](firmware/GlitchBoy/GB_ROM_CACHE_FIX.md)
-- [SD_HEAP_AND_SAVE_FIX.md](firmware/GlitchBoy/SD_HEAP_AND_SAVE_FIX.md)
-- [KNOWN_ISSUES.md](firmware/GlitchBoy/KNOWN_ISSUES.md)

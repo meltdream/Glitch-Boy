@@ -74,5 +74,5 @@ needed to rebuild or relink the firmware with a modified Nofrendo core.
 The LGPL v2 license text is included with this release as licenses/LGPL-2.0.txt.
 ```
 
-Replace this template with the actual contact address or download URL before a
-public product release.
+The source repository is https://github.com/meltdream/Glitch-Boy. Name the exact
+release or commit when you ship a unit, and add a contact address to the text above.
