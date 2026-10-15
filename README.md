@@ -1,10 +1,16 @@
 # Glitch Boy
 
+![Glitch Boy](images/banner.png)
+
 I'm Martino from Melted Electronics, and I'm excited to finally announce the Glitch Boy: a compact device that turns a retro console into a video synthesizer and chiptune instrument.
 
 Built by intentionally breaking a NES emulator, it's a tool for video artists and creatives, perfect for creating authentic 8-bit glitch aesthetics for visuals, music videos, and video art.
 
+![Glitch Boy in use](images/intro.gif)
+
 Load your games from microSD onto the Glitch Boy, then glitch them in real time with onboard controls, or sync the corruptions to music using the audio input or MIDI to create unique visuals.
+
+![Glitch Boy on a desk](images/microsd.jpg)
 
 The Glitch Boy is not only a video synth, but also an 8-bit audio synthesizer: you can play console's sound chip via MIDI, turning it into an authentic chiptune instrument.
 
@@ -21,6 +27,8 @@ All the glitches are faithful emulations of real hardware mods, corrupting the c
 
 Each game becomes a new visual palette for the instrument, ready to be remixed and distorted into endless combinations.
 
+![Glitched NES games](images/glitches.gif)
+
 The Glitch A knob affects the CPU of the NES, creating flickering sprite effects and corrupting the music and sound effects.
 
 The Glitch B knob affects the PPU, the console’s graphics processor, producing corrupted backgrounds and sprites.
@@ -30,6 +38,8 @@ The X and Y buttons are meant to control the glitch effects while you play: X tu
 ## MIDI Control
 
 Turn your keyboard into a game controller: Glitch Boy lets you map any MIDI note to a controller button press.
+
+![Playing a game from a MIDI keyboard](images/midi.gif)
 
 The controls on the Glitch Boy can also be automated by sending MIDI notes or controller messages from a sequencer, instrument or your preferred performance software / DAW.
 
@@ -41,6 +51,8 @@ Or just send MIDI clock from any external device and synchronize the glitches us
 
 MIDI compatibility means that you can also play the emulated NES sound chip as a proper 4-voice chiptune synth with two pulse channels, one triangle and one noise channel. Each of the four voices can be played independently from a separate MIDI channel.
 
+![Chiptune synth](images/chiptune.gif)
+
 The synth voice parameters, such as pulse duty, volume, envelope, and length, are also controllable via MIDI CC.
 
 The APU - the console "soundcard" -  can be glitched even when driving the audio engine with external MIDI, letting you corrupt your own MIDI sequences at will.
@@ -49,11 +61,15 @@ The APU - the console "soundcard" -  can be glitched even when driving the audio
 
 Glitch Boy is compatible with the Eurorack modular standard: you can send CV signals like gates, envelopes and LFOs from your modular gear into the Glitch Boy's CV - A and CV - B inputs to make the glitches evolve in time with your patches.
 
+![Glitch Boy in a Eurorack case](images/eurorack.jpg)
+
 The Eurorack Glitch Boy has all the same features and capabilities as the desktop unit, and the circuit board inside is exactly the same, making it possible to switch from desktop to Eurorack simply by changing the panel.
 
 ## Wireless Controller Support
 
 Glitch Boy is compatible with Xbox-style Bluetooth controllers, Switch controllers and Wiimotes, letting you play and control the glitches without being close to the unit.
+
+![Glitch Boy](images/wireless.jpg)
 
 ## Specs
 
